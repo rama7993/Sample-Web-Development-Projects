@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+   box-sizing: border-box;
+}
+html{
+    font-size: 63%;
+}
+.container{
+background: rgb(127, 204, 157);
+}
+.container .heading{
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-weight: bolder;
+    color:rgba(134, 75, 52, 0.726);
+}
+.container .music_box{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.container .music_box .box{
+    height: 16rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: .2rem;
+}
+.container .music_box .box .image{
+    height: 100%;
+    width:50%;
+}
+.container .music_box .box .image img{
+    height: 90%;
+    width: 90%;
+}
+.container .music_box .box .music{
+    width: 100%;
+}
+.container .music_box .box .music audio{
+    width: 90%;
+    
+}
+
+
+@media(max-width:640px){
+    .container .music_box .box{
+        height:27rem;
+        width:93%;
+        flex-flow: column;
+    }
+    .container .music_box .box .image{
+        height:80%;
+        width:90%;
+    }
+    .container .music_box .box .music{
+        height:20%;
+        width:80%;
+    }
+}
