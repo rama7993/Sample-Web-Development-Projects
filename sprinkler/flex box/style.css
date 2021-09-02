@@ -1,0 +1,15 @@
+.hack_container{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+    background-color: black;
+}
+.hack_container > div{
+    background-color: white;
+    width:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 1px;
+    padding: 3px;
+}
